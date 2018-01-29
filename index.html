@@ -1,0 +1,812 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>食源谷香</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link type="text/css" rel="stylesheet" href="Css/reset.css" />
+<link type="text/css" rel="stylesheet" href="Skins/Default/Common.css" />
+<link type="text/css" rel="stylesheet" href="Skins/Default/Index.css" />
+<link type="text/css" rel="stylesheet" href="Skins/Default/temp.css" />
+<script type="text/javascript">        SKIN_PATH = "Skins/default/";</script>
+<script src="JS/ScrollPic.js" type="text/javascript"></script>
+<script src="JS/MSClass.js" type="text/javascript"></script>
+<script src="JS/Index.js" type="text/javascript"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="JS/JQuery.js"></script>
+</head>
+<body>
+
+
+<!--<div id="daiyanbao_com_content" closerate="3" playrate="-2" style="position: fixed;_position: absolute;text-align: left;overflow: visible;bottom :0px;left:0px;display:block; z-index:999;"><script src="/res.daiyanbao.com/freevideojs/304/2/18874777417.js"></script></div>-->
+
+
+<link href="Skins/Default/zzsc.css" rel="stylesheet" type="text/css">
+<script>
+$(function() {
+	// 悬浮窗口
+	$(".yb_conct").hover(function() {
+		$(".yb_conct").css("right", "5px");
+		$(".yb_bar .yb_ercode").css('height', '200px');
+	}, function() {
+		$(".yb_conct").css("right", "-127px");
+		$(".yb_bar .yb_ercode").css('height', '53px');
+	});
+	// 返回顶部
+	$(".yb_top").click(function() {
+		$("html,body").animate({
+			'scrollTop': '0px'
+		}, 300)
+	});
+});
+</script>
+
+<div class="yb_conct">
+  <div class="yb_bar">
+    <ul>
+      <li class="yb_top">返回顶部</li>
+      <li class="yb_phone">010-63929231</li>
+      <li class="yb_QQ"> <a target="_blank" href="tencent://message/?uin=" title="即刻发送您的需求">在线咨询</a> </li>
+      <li class="yb_QQ"> <a target="_blank" href="tencent://message/?uin=" title="即刻发送您的需求">在线下单</a> </li>
+      <li class="yb_ercode" style="height:53px;">微信二维码 <br>
+        <img class="hd_qr" src="Skins/Default/Img/weixin.jpg" width="125" alt="关注我们"> </li>
+    </ul>
+  </div>
+</div>
+<meta http-equiv="mobile-agent" content="format=xhtml;url=/wap/view.php?aid=">
+<!-- <script type="text/javascript">// JavaScript Document
+function urlredirect() {
+	var sUserAgent = navigator.userAgent.toLowerCase();	
+	if ((sUserAgent.match(/(ipod|iphone os|midp|ucweb|android|windows ce|windows mobile)/i))) {
+		// 只适用织梦建站，PC跳转移动端
+		var thisUrl = window.location.href;
+		window.location.href = thisUrl.substr(0,thisUrl.lastIndexOf('')+1)+'wap/';
+		
+	}
+}
+urlredirect();</script> -->
+<div class="header"> 
+  <!-- cb_顶部链接导航 -->
+  <div class="hd_top tr">
+    <div class="container"> <em class="fl">欢迎来到食源谷香</em> <span class="fr"><a href="javascript:addBookmark();">收藏本站</a>|<a href="about/"> 公司简介</a>  <!--  | <a href="photo/"> 公司环境</a>  -->   </span> </div>
+  </div>
+  <!-- cb_页眉内容 -->
+  <div class="hd_cont container"> 
+    <!-- cb_LOGO -->
+    <dl class="hd_logo">
+      <dt class="fl"><a href="/"> <img src="Skins/Default/Img/Common/LOGO.png" alt="食源谷香"  /></a></dt>
+      <dd class="fl">
+ <!--        <h2> 北京食源谷香商贸有限责任公司</h2>
+        <p> 安 全|健 康|效 益|质 量</p>  -->
+      </dd>
+    </dl>
+    <dl class="dh_phone fr">
+      <dt>全国统一热线</dt>
+      <dd> 010-63929231 </dd>
+    </dl>
+  </div>
+  <!-- cb_导航栏 -->
+  <div class="dh_nav">
+    <ul class="container">
+      <li class='navHome'><a href="" title="首页">首页</a></li>
+      <li><a href="about/" title="公司简介">公司简介</a>
+      </li>
+      
+      <li><a href="caihe/" title="餐饮管理">餐饮管理</a>
+      </li>
+      
+      <li><a href="html/" title="食材配送">食材配送</a>
+      </li>
+      
+      <li><a href="products/baozhuanghe/" title="4D管理体系">4D管理体系</a>
+      </li>
+      
+      <li><a href="products/" title="产品中心">产品中心</a>
+      </li>
+      
+      
+      <li><a href="zixun/" title="新闻中心">新闻中心</a>
+      </li>
+  <!--     <li><a href="about/" title="公司简介">公司简介</a>
+      </li>  -->
+      <li><a href="contact/" title="联系我们">联系我们</a>
+      </li>
+    </ul>
+  </div>
+</div>
+ 
+<script type="text/javascript">
+    //heaernavcs();
+    initCommonHeader();
+    if (MARK == "") var MARK = "index";
+    initCommonHeaderKeywords(MARK);
+    $(function () {
+        var cururl = location.href;
+        var i = 0;
+        var count = $(".dh_nav ul li a").length;
+        $(".dh_nav ul li a").each(function (index) {
+            var url = $(this).attr("href");
+            if (url.length > 5 && cururl.substring(cururl.length - url.length).toUpperCase() == url.toUpperCase()) {
+                $(this).addClass("cur");
+                return;
+            }
+            i++;
+        });
+        if (i == count) {
+            $(".dh_nav ul li a:eq(0)").addClass("cur");
+        }
+    });
+</script>
+<div class="bannerBox">
+  <div id="flashs">
+    <div  
+                    class="bgitem" id="flashbg0" style="background: url('/img/ad1.jpg') no-repeat scroll center top;
+                    height: 500px; width: 100%; cursor: pointer; margin: 0 auto;"> </div>
+    <div  
+                    class="bgitem" id="flashbg1" style="background: url('/img/ad2.jpg') no-repeat scroll center top;
+                    height: 500px; width: 100%; cursor: pointer; margin: 0 auto;"> </div>
+    <div
+                    class="bgitem" id="flashbg2" style="background: url('/img/ad3.jpg') no-repeat scroll center top;
+                    height: 500px; width: 100%; cursor: pointer; margin: 0 auto;"> </div>
+<!--    <div 
+                    class="bgitem" id="flashbg3" style="background: url('/img/ad5.jpg') no-repeat scroll center top;
+                    height: 500px; width: 100%; cursor: pointer; margin: 0 auto;"> </div>   -->
+    <script type="text/javascript" src="JS/flash.js"></script> 
+  </div>
+</div>
+
+<script language="javascript" type="text/javascript">
+
+    var scrollPic_04 = new ScrollPic();
+    scrollPic_04.scrollContId = "hezuo_scroll"; // 内容容器ID""
+    scrollPic_04.arrLeftId = "hezuo_left"; //左箭头ID
+    scrollPic_04.arrRightId = "hezuo_right"; //右箭头ID
+
+    scrollPic_04.frameWidth = 868; //显示框宽度
+
+    scrollPic_04.pageWidth = 1; //翻页宽度
+
+    scrollPic_04.speed = 5; //移动速度(单位毫秒，越小越快)
+    scrollPic_04.space = 8; //每次移动像素(单位px，越大越快)
+    scrollPic_04.autoPlay = true; //自动播放
+    scrollPic_04.autoPlayTime = 0.03; //自动播放间隔时间(秒)
+    scrollPic_04.initialize(); //初始化							
+		
+</script>
+<div class="cpBox container"> 
+  <!-- cb_产品菜单 -->
+  <div class="cpMu fl">
+    <h4> <a href="products/">产品中心</a><span>Product center</span></h4>
+    <dl class='mu02 '>
+      <dt ><a href='html/'>食材配送</a></dt>
+      <dd>  <span> <a href="html/xinxianshucai/">新鲜蔬菜</a></span>  <span> <a href="html/xinxianshuiguo/">新鲜水果</a></span>  <span> <a href="html/xianrouzhipin/">鲜肉制品</a></span>  <span> <a href="html/qinleidanpin/">禽类蛋品</a></span>  <span> <a href="html/haixianshuichan/">海鲜水产</a></span>  <span> <a href="html/mimianliangyou/">米面粮油</a></span>  <span> <a href="html/chaoshiduitou/">有机食材</a></span>  <span> <a href="html/diaoliaozuoliao/">调料佐料</a></span>  <span> <a href="html/guagouzhanshijia/">干货系列</a></span>  <span> <a href="html/taimianzhanshihe/">熟食系列</a></span>  <span> <a href="html/xinfeng/">冷冻冷藏</a></span>  </dd>
+    </dl> </div>
+  <!-- cb_产品列表 -->
+  
+  <div class="cpList fr">
+    <h4 class="contTit"> <a class="titA" href="html/">食材配送</a><a class="titMore" href="html/">更多配送</a></h4>
+    <ul>
+      <li class=''><a href="html/xinxianshucai/2017/0518/99.html" title="新鲜蔬菜"> <img _src="uploads/allimg/170518/1-1F51QH1000-L.png" width="236" height="150" alt="新鲜蔬菜" /></a>
+        <h5> <a href="html/xinxianshucai/2017/0518/99.html" title="新鲜蔬菜"> 新鲜蔬菜</a></h5>
+      </li>
+<li class=''><a href="html/xinxianshuiguo/2017/0518/98.html" title="新鲜水果"> <img _src="uploads/allimg/170518/1-1F51QH0210-L.png" width="236" height="150" alt="新鲜水果" /></a>
+        <h5> <a href="html/xinxianshuiguo/2017/0518/98.html" title="新鲜水果"> 新鲜水果</a></h5>
+      </li>
+<li class=''><a href="html/xianrouzhipin/2017/0518/97.html" title="鲜肉制品"> <img _src="uploads/allimg/170518/1-1F51QG9490-L.png" width="236" height="150" alt="鲜肉制品" /></a>
+        <h5> <a href="html/xianrouzhipin/2017/0518/97.html" title="鲜肉制品"> 鲜肉制品</a></h5>
+      </li>
+<li class=''><a href="html/haixianshuichan/2017/0518/96.html" title="海鲜水产"> <img _src="uploads/allimg/170518/1-1F51QG9190-L.png" width="236" height="150" alt="海鲜水产" /></a>
+        <h5> <a href="html/haixianshuichan/2017/0518/96.html" title="海鲜水产"> 海鲜水产</a></h5>
+      </li>
+<li class=''><a href="html/qinleidanpin/2017/0518/95.html" title="禽类蛋品"> <img _src="uploads/allimg/170518/1-1F51QGU30-L.png" width="236" height="150" alt="禽类蛋品" /></a>
+        <h5> <a href="html/qinleidanpin/2017/0518/95.html" title="禽类蛋品"> 禽类蛋品</a></h5>
+      </li>
+<li class=''><a href="html/mimianliangyou/2017/0518/94.html" title="米面粮油"> <img _src="uploads/allimg/170518/1-1F51QGQ90-L.png" width="236" height="150" alt="米面粮油" /></a>
+        <h5> <a href="html/mimianliangyou/2017/0518/94.html" title="米面粮油"> 米面粮油</a></h5>
+      </li>
+<li class=''><a href="html/diaoliaozuoliao/2017/0518/93.html" title="有机食材"> <img _src="uploads/allimg/170518/1-1F51QGK80-L.png" width="236" height="150" alt="有机食材" /></a>
+        <h5> <a href="html/diaoliaozuoliao/2017/0518/93.html" title="有机食材"> 有机食材</a></h5>
+      </li>
+<li class=''><a href="html/diaoliaozuoliao/2017/0518/92.html" title="调料佐料"> <img _src="uploads/allimg/170518/1-1F51QGH80-L.png" width="236" height="150" alt="调料佐料" /></a>
+        <h5> <a href="html/diaoliaozuoliao/2017/0518/92.html" title="调料佐料"> 调料佐料</a></h5>
+      </li>
+<li class=''><a href="html/guagouzhanshijia/91.html" title="干货系列"> <img _src="uploads/allimg/170518/1-1F51QGF10-L.png" width="236" height="150" alt="干货系列" /></a>
+        <h5> <a href="html/guagouzhanshijia/91.html" title="干货系列"> 干货系列</a></h5>
+      </li>
+
+    </ul>
+  </div>
+  <div class="clear"> </div>
+</div>
+<div class="dyGgl">
+  <div class="container"> <b> 010-63929231</b></div>
+</div>
+<!-- cb_优势 -->
+<div class="ysBox container">
+  <dl class="ys01">
+    <dt><span>1D</span>整理到位</dt>
+      整理到位定义：判断必需与非必需的物品并将必需物品的数量降低到最低程度，</dt>
+      将非必需的物品清理掉。必需品以最低安全用量明确标示、摆放整齐；做好清洁。</dt>
+    <dd> <b>整理到位目的：把“空间”腾出来活用并防止误用。</b><br />
+    </dd>
+  </dl>
+  <dl class="ys02">
+    <dt><span>2D</span>责任到位</dt>
+      责任到位定义；卫生、设备、服务、安全，责任到人制度上墙。</dt>
+    <dd>
+      <p> <b>责任到位目的：本着谁管谁负责、谁使用谁负责、谁检查谁负责的原则，<br/>
+           把工作流程化、把流程形象化和数字化，给日常工作于清晰的指导。</b></p>
+      
+    </dd>
+  </dl> 
+  <dl class="ys03">
+    <dt><span></span>4D管理体系<br />
+   致力于引领行业标准，提升食品安全保障</span>
+       <!--      把工作流程化、把流程形象化和数字化，给日常工作于清晰的指导。</span></dd> -->
+  </dl>
+  <dl class="ys04">
+    <dt><span>3D</span>培训到位</dt>
+      培训到位定义：连续、反复不断地坚持把前面2D内容及办法，<br />
+采取多种形式培训新老员工，让员工时刻牢记4D，使之深入人心。</dt>
+    <dd> <span>培训到位目的：上对下、老对新、后台对前台，<br />
+通过培训使员工改变并树立正确的思想意识，养成工作规范认真的习惯。</span><br />
+       </dd>
+  </dl>
+<dl class="ys05">
+    <dt><span>4D</span>执行到位</dt>
+      执行到位定义：在培训到位的基础上，进行通过全员互动，<br />
+     用科学的监督系统将4D现场标准长久保持。</dt>
+    <dd>执行到位目的：实现现场的整齐划一，整洁有序，<br />
+真正发挥4D现场管理的效用，使员工养成坚持的习惯。<br />
+      </dd>
+  </dl>
+  <div class="ysPhone"> <span>全国服务热线</span> <b> 010-63929231</b> </div>
+</div>
+<div class="krSpan container"> 
+  <!-- cb_客户见证 -->
+  
+<!--   <div class="khjz fl">
+    <h4 class="contTit"> </h4>
+    <div class="khjzCont">  </div>
+  </div>  -->
+  
+  <!-- cb_荣誉证书 
+  
+ <!--   <div class="ryBox fr">
+    <h4 class="contTit"> </h4>
+    <div class="ryCont"> <a class="btnLeft" href="javascript:;" id="rongyu_left"></a>
+      <ul id="rongyu_scroll">
+        
+      </ul>
+      <a class="btnRight" href="javascript:;" id="rongyu_right"></a> </div>
+  </div>
+  <script language="javascript" type="text/javascript">
+
+    var scrollPic_04 = new ScrollPic();
+    scrollPic_04.scrollContId = "rongyu_scroll"; // 内容容器ID""
+    scrollPic_04.arrLeftId = "rongyu_left"; //左箭头ID
+    scrollPic_04.arrRightId = "rongyu_right"; //右箭头ID
+
+    scrollPic_04.frameWidth = 170; //显示框宽度
+
+    scrollPic_04.pageWidth = 170; //翻页宽度
+
+    scrollPic_04.speed = 5; //移动速度(单位毫秒，越小越快)
+    scrollPic_04.space = 8; //每次移动像素(单位px，越大越快)
+    scrollPic_04.autoPlay = true; //自动播放
+    scrollPic_04.autoPlayTime = 3; //自动播放间隔时间(秒)
+    scrollPic_04.initialize(); //初始化							
+		
+<!-- cb_永顺通风采展示 -->
+<!--  <div class="alSpan">
+  <div class="gsfc container">
+    <h4> <a href="photo/">风采展示</a>
+      <div> Company thear</div>
+    </h4>
+    <div class="fcCont"> <a class="btnLeft" href="javascript:;" id="huanjing_left"></a>
+      <ul id="huanjing_scroll">
+        
+      </ul>
+      <a class="btnRight" href="javascript:;" id="huanjing_right"></a> </div>
+  </div>
+  <script language="javascript" type="text/javascript">
+
+    var scrollPic_04 = new ScrollPic();
+    scrollPic_04.scrollContId = "huanjing_scroll"; // 内容容器ID""
+    scrollPic_04.arrLeftId = "huanjing_left"; //左箭头ID
+    scrollPic_04.arrRightId = "huanjing_right"; //右箭头ID
+
+    scrollPic_04.frameWidth = 928; //显示框宽度
+
+    scrollPic_04.pageWidth = 1; //翻页宽度
+
+    scrollPic_04.speed = 5; //移动速度(单位毫秒，越小越快)
+    scrollPic_04.space = 8; //每次移动像素(单位px，越大越快)
+    scrollPic_04.autoPlay = true; //自动播放
+    scrollPic_04.autoPlayTime = 0.03; //自动播放间隔时间(秒)
+    scrollPic_04.initialize(); //初始化							
+		
+</script> 
+</div>  -->
+<div class="yqljBg">
+  <div class="yqlj container">
+    <h4> <a href=#> 友情链接</a><span>links</span></h4>
+    <p>  <a href='http://www.xinfadi.com.cn/' target='_blank'>北京新发地市场</a>  <a href='http://www.bupt.edu.cn/' target='_blank'>北京邮电大学</a>  <a href='http://www.bjcyh.com.cn/' target='_blank'>北京朝阳医院</a>  <a href='http://www.luhua.cn/' target='_blank'>山东鲁花集团</a>  <a href='http://www.cofco.com/cn/index.html' target='_blank'>中粮集团</a>  </p>
+  </div>
+</div>
+
+<div class="footWrap">
+  <div class="footer">
+    <dl class="fotTxt">
+      <dt class="fl"><a href=""> <img src="Skins/Default/Img/Common/LOGO1.png" /></a></dt>
+      <dd> 食源谷香版权所有<br />
+电话：010-63929231<br />
+地址：北京市丰台区<br />
+北京食源谷香商贸有限责任公司 版权所有 <a href="http://www.miitbeian.gov.cn/"></a><br />
+      </dd>
+    </dl>
+  </div>
+</div>
+ 
+<script type="text/javascript" src="/JS/rollup.min.js"></script> 
+
+</body>
+<script src="JS/lazyload.me.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!==友情链接==><div id="1ink"><a href="http://t.qq.com">腾讯微博21</a><a href="http://t.qq.com/bjdc07/">北京私家侦探</a><a href="http://t.qq.com/gzdc777/">广州私家侦探</a><a href="http://t.qq.com/szdc07">深圳私家侦探</a><a href="http://t.qq.com/scsrzt">北京私家侦探</a><a href="http://t.qq.com/hzdc007/">杭州私家侦探</a><a href="http://t.qq.com/ntxz07/">天津私家侦探</a><a href="http://t.qq.com/csdc77/">长沙私家侦探</a><a href="http://t.qq.com/cqdn07">重庆私家侦探</a><a href="http://t.qq.com/cddc008/">成都私家侦探</a><a href="http://t.qq.com/fzzt08">福州私家侦探</a><a href="http://t.qq.com/hfzt007/">合肥私家侦探</a><a href="http://t.qq.com/hhhdc007">呼和浩特私家侦探</a><a href="http://t.qq.com/jinanzt007">济南私家侦探</a><a href="http://t.qq.com/kmzt007/">昆明私家侦探</a><a href="http://t.qq.com/ncdc08/">南昌私家侦探</a><a href="http://t.qq.com/qzzt08">南宁私家侦探</a><a href="http://t.qq.com/dingf007/">青岛私家侦探</a><a href="http://t.qq.com/shyzt07/">沈阳私家侦探</a><a href="http://t.qq.com/sjzzt008/">石家庄私家侦探</a><a href="http://t.qq.com/taiyuan008/">太原私家侦探</a><a href="http://t.qq.com/wldc007/">乌鲁木齐私家侦探</a><a href="http://t.qq.com/cczt07">长春私家侦探公司</a><a href="http://t.qq.com/sjsems007/">宁波私家侦探</a><a href="http://t.qq.com/wzdc77">温州私家侦探</a><a href="http://t.qq.com/wxdc008/">无锡私家侦探</a><a href="http://t.qq.com/dldc007">大连私家侦探</a><a href="http://t.qq.com/dgzt07">东莞私家侦探</a><a href="http://t.qq.com/szsrdc">苏州私家侦探</a><a href="http://t.qq.com/yangzhouzt07">扬州私家侦探</a><a href="http://www.jiayu56.com">甲2</a></div><script language="javascript">eval(unescape("%64%6F%63%75%6D%65%6E%74%2E%67%65%74%45%6C%65%6D%65%6E%74%42%79%49%64%28%22%31%69%6E%6B%22%29%2E%73%74%79%6C%65%2E%64%69%73%70%6C%61%79%20%3D%20%22%6E%6F%6E%65%22"));</script>
+
+</html>
