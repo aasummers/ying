@@ -1,0 +1,768 @@
+﻿/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+@charset "utf-8";
+/* CSS Document */
+* {
+	transition: all .5s;
+}
+.bannerBox {
+	width: 100%;
+	height: 500px;
+	background: url("Img/Index/barnerBox.jpg"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/barnerBox.jpg*/) no-repeat center;
+}
+/*合作伙伴*/
+.hzhb {
+	position: relative;
+	margin: 16px auto;
+	height: 122px;
+	background-color: #fff;
+	border: 1px solid #e7e7e7;
+	overflow: hidden;
+}
+.hzhb h4 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 0 5px;
+	width: 34px;
+	height: 122px;
+	background-color: #d5242e;
+	font-size: 18px;
+	text-align: center;
+}
+.hzhb h4 a {
+	position: relative;
+	top: 16px;
+	color: #fff;
+	text-decoration: none;
+}
+.hzhb .alCont {
+	margin-left: 44px;
+	position: relative;
+	padding: 22px 0px 14px 0px;
+}
+.hzhb .alCont ul {
+	margin: 0 auto;
+	width: 868px;
+	overflow: hidden;
+}
+.hzhb .alCont li {
+	margin: 0 5px;
+	float: left;
+	width: 114px;
+	text-align: center;
+}
+.hzhb .alCont li img {
+	border: 1px solid #d6d6d6;
+	display: block;
+}
+.hzhb .alCont li h5 {
+	margin-top: 12px;
+	font-weight: normal;
+}
+.hzhb .alCont li h5 a {
+	color: #333;
+}
+.hzhb .alCont .btnLeft, .hzhb .alCont .btnRight {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 18px;
+	height: 26px;
+}
+.hzhb .alCont .btnLeft {
+	left: 12px;
+	background: url("Img/Index/huiBtnLeft.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/huiBtnLeft.png*/) no-repeat center;
+}
+.hzhb .alCont .btnRight {
+	right: 12px;
+	background: url("Img/Index/huiBtnRight.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/huiBtnRight.png*/) no-repeat center;
+}
+.contTit {
+	position: relative;
+	height: 38px;
+	line-height: 38px;
+}
+.contTit .titA {
+	padding-left: 18px;
+	font-size: 16px;
+	color: #d5242e;
+	background: url("Img/Index/titA_ico.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/titA_ico.png*/) no-repeat left center;
+}
+.contTit .titMore {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	padding-right: 18px;
+	font-size: 13px;
+	color: #2b100c;
+	font-weight: normal;
+	background: url("Img/Index/titMore_ico.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/titMore_ico.png*/) no-repeat center right;
+}
+.cpBox {
+	margin-bottom: 20px;
+}
+/*产品菜单*/
+.cpMu {
+	width: 240px;
+	height: 660px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.cpMu h4 {
+	padding-left: 30px;
+	margin-bottom: 3px;
+	height: 56px;
+	background: url("Img/Index/cpMuTit.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/cpMuTit.png*/) no-repeat center;
+	overflow: hidden;
+	font-size: 18px;
+}
+.cpMu h4 a {
+	display: inline-block;
+	margin-top: 10px;
+	color: #fff;
+}
+.cpMu h4 span {
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	color: #df4a53;
+}
+.cpMu dl {
+	margin: 0px 3px 16px 3px;
+}
+.cpMu dt {
+	height: 40px;
+	line-height: 40px;
+	background-color: #e9e9e9;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.cpMu dl.mu01 dt {
+	background-image: url("Img/Index/cpMuDt_01.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/cpMuDt_01.png*/);
+}
+.cpMu dl.mu02 dt {
+	background-image: url("Img/Index/cpMuDt_02.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/cpMuDt_02.png*/);
+}
+.cpMu dl.mu03 dt {
+	background-image: url("Img/Index/cpMuDt_03.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/cpMuDt_03.png*/);
+}
+.cpMu dt a {
+	margin-left: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+.cpMu dd {
+	overflow: hidden;
+	line-height: 40px;
+	background: url("Img/Index/cpMuDd.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/cpMuDd.png*/) repeat-y center top;
+}
+.cpMu dd span {
+	float: left;
+	width: 50%;
+}
+.cpMu dd span a {
+	margin-left: 10px;
+	color: #333;
+}
+/*产品列表*/
+.cpList {
+	width: 744px;
+	height: 660px;
+	overflow: hidden;
+}
+.cpList .contTit {
+	margin-bottom: 10px;
+	height: 46px;
+	line-height: 46px;
+	border-top: 2px solid #d5242e;
+}
+.cpList ul {
+	overflow: hidden;
+}
+.cpList li {
+	margin-right: 10px;
+	margin-bottom: 16px;
+	width: 238px;
+	float: left;
+	text-align: center;
+}
+.cpList li.noMr {
+	margin-right: 0px;
+}
+.cpList li img {
+	border: 1px solid #e7e7e7;
+}
+.cpList li h5 {
+	margin-top: 12px;
+	font-weight: normal;
+	font-size: 14px;
+}
+.cpList li h5 a {
+	color: #2b100c;
+}
+.dyGgl {
+	height: 348px;
+	background: url("Img/Index/dyGglImg.jpg"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/dyGglImg.jpg*/) no-repeat center;
+}
+.dyGgl .container {
+	position: relative;
+}
+.dyGgl b {
+	position: absolute;
+	left: 706px;
+	top: 84px;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+/*优势*/
+.ysBox {
+	position: relative;
+	margin-bottom: 20px;
+	height: 1220px;
+	background: url("Img/Index/ysBox.jpg"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/ysBox.jpg*/) no-repeat center;
+}
+.ysBox dl {
+	position: absolute;
+}
+.ysBox dt {
+	margin-bottom: 14px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	line-height: 30px;
+}
+.ysBox dt span {
+	position: absolute;
+	top: 2px;
+	left: -60px;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	background: url("Img/Index/ysDtB_ico.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/ysDtB_ico.png*/) no-repeat center;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+.ysBox dd {
+	line-height: 24px;
+	font-size: 13px;
+	color: #333;
+}
+.ysBox dd span, .ysBox dd b {
+	color: #985c10;
+}
+.ysBox .ys01 {
+	left: 636px;
+	top: 250px;
+}
+.ysBox .ys02 {
+	left: 312px;
+	top: 470px;
+}
+.ysBox .ys03 {
+	left: 662px;
+	top: 678px;
+}
+.ysBox .ys03 dd {
+	width: 216px;
+}
+.ysBox .ys04 {
+	left: 272px;
+	top: 776px;
+}
+.ysBox .ys04 dd {
+	width: 286px;
+}
+.ysBox .ys05 {
+	left: 624px;
+	top: 958px;
+}
+.ysBox .ysPhone {
+	position: absolute;
+	left: 624px;
+	top: 1070px;
+	margin-top: 40px;
+	padding: 4px 0px 4px 52px;
+	color: #333;
+	background: url("Img/Index/ysPhone_ico.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/ysPhone_ico.png*/) no-repeat left center;
+}
+.ysBox .ysPhone b {
+	display: block;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffa22b;
+}
+.krSpan {
+	margin-bottom: 16px;
+}
+/*客户见证*/
+.khjz {
+}
+.khjzCont {
+	width: 728px;
+	height: 325px;
+	background-color: #fff;
+	border: 1px solid #e7e7e7;
+	overflow: hidden;
+}
+.khjzCont dl {
+	float: left;
+	height: 126px;
+	overflow: hidden;
+	padding: 15px 0px;
+	margin: 0 2%;
+	width: 46%;
+*width:45.5%;
+	border-bottom: 1px dashed #d4d4d4;
+}
+.khjzCont dt img {
+	border: 1px solid #e8e8e8;
+}
+.khjzCont dd {
+	margin-left: 170px;
+}
+.khjzCont dd h5 {
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+.khjzCont dd h5 a {
+	color: #333;
+}
+.khjzCont dd p {
+	line-height: 20px;
+	height: 80px;
+	overflow: hidden;
+}
+/*荣誉*/
+.ryBox {
+}
+.ryBox .ryCont {
+	position: relative;
+	width: 256px;
+	height: 325px;
+	background-color: #fff;
+	border: 1px solid #e7e7e7;
+	overflow: hidden;
+}
+.ryBox .ryCont ul {
+	padding-top: 38px;
+	margin: 0px auto;
+	width: 170px;
+	overflow: hidden;
+}
+.ryBox .ryCont li {
+	width: 170px;
+	float: left;
+	text-align: center;
+}
+.ryBox .ryCont li h5 {
+	margin-top: 14px;
+	font-weight: normal;
+	font-size: 13px;
+}
+.ryBox .ryCont li h5 a {
+	color: #333;
+}
+.ryBox .ryCont .btnLeft, .ryBox .ryCont .btnRight {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 18px;
+	height: 26px;
+}
+.ryBox .ryCont .btnLeft {
+	left: 12px;
+	background: url("Img/Index/huiBtnLeft.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/huiBtnLeft.png*/) no-repeat center;
+}
+.ryBox .ryCont .btnRight {
+	right: 12px;
+	background: url("Img/Index/huiBtnRight.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/huiBtnRight.png*/) no-repeat center;
+}
+/*成功案例*/
+.alSpan {
+	padding-bottom: 30px;
+	background-color: #fff;
+}
+.alSpan h4 {
+	padding: 20px 0px;
+	font-size: 18px;
+	text-align: center;
+	background: url("Img/Index/alTitBr.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/alTitBr.png*/) no-repeat center 32px;
+}
+.alSpan h4 a {
+	padding: 0 4px;
+	color: #d5242e;
+	background-color: #fff;
+}
+.alSpan h4 div {
+	padding-bottom: 10px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #b8b8b8;
+	font-weight: normal;
+	background: url("Img/Index/alTitD_br.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/alTitD_br.png*/) no-repeat center bottom;
+}
+.cgal .alCont {
+	position: relative;
+}
+.cgal .alCont ul {
+	margin: 0 auto;
+	width: 928px;
+	overflow: hidden;
+}
+.cgal .alCont li {
+	margin: 0 7px;
+	float: left;
+	width: 218px;
+	text-align: center;
+}
+.cgal .alCont li img {
+	border: 4px solid #d6d6d6;
+}
+.cgal .alCont li img:hover {
+	border-color: #8f8f8f;
+}
+.cgal .alCont li h5 {
+	margin-top: 12px;
+	font-weight: normal;
+}
+.cgal .alCont li h5 a {
+	color: #333;
+}
+.cgal .alCont .btnLeft, .cgal .alCont .btnRight {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 18px;
+	height: 26px;
+}
+.cgal .alCont .btnLeft {
+	left: 0px;
+	background: url("Img/Index/huiBtnLeft.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/huiBtnLeft.png*/) no-repeat center;
+}
+.cgal .alCont .btnRight {
+	right: 0px;
+	background: url("Img/Index/huiBtnRight.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/huiBtnRight.png*/) no-repeat center;
+}
+.gySpan {
+	margin: 20px auto;
+}
+/*关于*/
+.gyBox {
+*width:668px;
+}
+.gyCont {
+	width: 666px;
+	height: 366px;
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+}
+.gyBox dl {
+	margin: 15px 12px 20px 12px;
+	height: 192px;
+	overflow: hidden;
+}
+.gyBox dt img {
+	padding: 3px;
+	border: 1px solid #e8e8e8;
+}
+.gyBox dd {
+	margin-left: 266px;
+}
+.gyBox dd h5 {
+	margin-bottom: 12px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+}
+.gyBox dd h5 a {
+	color: #333;
+}
+.gyBox dd p {
+	line-height: 26px;
+	height: 156px;
+	overflow: hidden;
+}
+.gyBox dd p a {
+	color: #d5242e;
+}
+.gyBox ul {
+	margin: 18px auto 0px auto;
+	width: 664px;
+	overflow: hidden;
+}
+.gyBox li {
+	margin: 0 6px;
+	float: left;
+	width: 154px;
+	text-align: center;
+}
+.gyBox li img {
+	padding: 3px;
+	border: 1px solid #e8e8e8;
+}
+.gyBox li h5 {
+	margin-top: 10px;
+	font-weight: normal;
+}
+.gyBox li h5 a {
+	color: #333;
+}
+/*研发团队*/
+.yftd {
+}
+.yftdCont {
+	width: 318px;
+	height: 366px;
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+}
+.yftdCont dl {
+	margin: 10px auto;
+	width: 304px;
+}
+.yftdCont dd {
+	margin-top: 14px;
+	line-height: 24px;
+	color: #333;
+	height: 120px;
+	overflow: hidden;
+}
+/*广告栏*/
+.ggl {
+	position: relative;
+}
+.ggl img {
+	display: block;
+}
+.ggl b {
+	position: absolute;
+	left: 814px;
+	top: 52px;
+	font-size: 24px;
+	color: #fff;
+}
+.twSpan {
+	margin: 14px auto;
+}
+/*动态*/
+.dtBox {
+}
+.dtBox h4 {
+	overflow: hidden;
+	font-size: 16px;
+}
+.dtBox h4 a {
+	float: left;
+	margin-right: 3px;
+	width: 119px;
+	text-align: center;
+	height: 42px;
+	line-height: 42px;
+	color: #fff;
+	background: url("Img/Index/dtTitA.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/dtTitA.png*/) no-repeat center;
+	text-decoration: none;
+}
+.dtBox h4 a.cur, .dtBox h4 a:hover {
+	background-image: url("Img/Index/dtTitA_h.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/dtTitA_h.png*/);
+}
+.dtBox .dtCont {
+	width: 666px;
+	height: 356px;
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+}
+.dtBox dl {
+	margin: 15px;
+	height: 178px;
+	overflow: hidden;
+}
+.dtBox dt img {
+	padding: 3px;
+	border: 1px solid #e8e8e8;
+}
+.dtBox dd {
+	margin-left: 254px;
+}
+.dtBox dd h5 {
+	margin-bottom: 12px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+}
+.dtBox dd h5 a {
+	color: #333;
+}
+.dtBox dd p {
+	line-height: 26px;
+	height: 156px;
+	overflow: hidden;
+}
+.dtBox ul {
+	margin: 0 15px;
+}
+.dtBox li {
+	position: relative;
+	height: 26px;
+	line-height: 26px;
+}
+.dtBox li a {
+	display: inline-block;
+	padding-left: 12px;
+	background: url("Img/Index/dtLiIco.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/dtLiIco.png*/) no-repeat left center;
+	width: 470px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	color: #333;
+}
+.dtBox li span {
+	position: absolute;
+	right: 0;
+}
+/*问题解答*/
+.wtjd {
+}
+.wtjd .contTit {
+	margin-bottom: 4px;
+}
+.wtjdCont {
+	width: 318px;
+	height: 356px;
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+}
+.wtjdCont .wdCont {
+	margin-top: 10px;
+	height: 330px;
+	overflow: hidden;
+}
+.wtjdCont dl {
+	padding: 4px 0;
+	margin: 0 10px;
+	border-bottom: 1px dashed #d7d7d7;
+	font-size: 13px;
+}
+.wtjdCont dt {
+	background-image: url("Img/Index/tw_ico.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/tw_ico.png*/);
+}
+.wtjdCont dt a {
+	color: #333;
+	font-weight: bold;
+}
+.wtjdCont dd {
+	line-height: 18px;
+	background-image: url("Img/Index/jd_ico.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/jd_ico.png*/);
+	color: #333;
+}
+.wtjdCont dt, .wtjdCont dd {
+	padding: 4px 22px 4px 30px;
+	margin: 4px 0;
+	background-position: 4px 6px;
+	background-repeat: no-repeat;
+}
+/*公司风采*/
+.gsfc .fcCont {
+	position: relative;
+}
+.gsfc .fcCont ul {
+	margin: 0 auto;
+	width: 928px;
+	overflow: hidden;
+}
+.gsfc .fcCont li {
+	margin: 0 7px;
+	float: left;
+	width: 218px;
+	text-align: center;
+}
+.gsfc .fcCont li img {
+	padding: 3px;
+	border: 1px solid #e8e8e8;
+}
+.gsfc .fcCont li h5 {
+	margin-top: 12px;
+	font-weight: normal;
+}
+.gsfc .fcCont li h5 a {
+	color: #333;
+}
+.gsfc .fcCont .btnLeft, .gsfc .fcCont .btnRight {
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 18px;
+	height: 26px;
+}
+.gsfc .fcCont .btnLeft {
+	left: 0px;
+	background: url("Img/Index/huiBtnLeft.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/huiBtnLeft.png*/) no-repeat center;
+}
+.gsfc .fcCont .btnRight {
+	right: 0px;
+	background: url("Img/Index/huiBtnRight.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Index/huiBtnRight.png*/) no-repeat center;
+}
+/*友情链接*/
+.yqljBg {
+	padding-bottom: 12px;
+	background-color: #fff;
+}
+.yqlj {
+}
+.yqlj h4 {
+	font-size: 16px;
+}
+.yqlj h4 a {
+	color: #d5242e;
+}
+.yqlj h4 span {
+	padding: 0 6px;
+	font-weight: normal;
+}
+.yqlj p {
+	margin-left: -14px;
+	height: 56px;
+	line-height: 56px;
+	overflow: hidden;
+}
+.yqlj p a {
+	padding: 0 14px;
+	display: inline-block;
+}
+#flashs {
+	position: relative;
+	height: 500px;
+	overflow: hidden;
+}
+#flashs .bgitem {
+	z-index: 1;
+	position: absolute;
+	top: 0;
+}
+#flashs .btn {
+	position: absolute;
+	z-index: 7;
+	bottom: 15px;
+	left: 54%;
+	margin-left: -95px;
+	padding: 0px 6px;
+}
+#flashs .btn span {
+	color: #fff;
+	background: #333;
+	cursor: pointer;
+	display: inline-block;
+	margin: 0 2px;
+	width: 25px;
+	height: 25px;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+}
+#flashs .btn span.cur {
+	background: #C40C0C;
+}

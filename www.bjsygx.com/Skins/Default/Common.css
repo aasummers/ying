@@ -1,0 +1,307 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body {
+	background-color: #f3f2f2;
+	overflow-x: hidden;
+	color: #666;
+	font-size: 12px;
+	font-family: microsoft yahei, "宋体";
+	position: relative;
+}/*网站字体颜色*/
+a {
+	color: #666;
+	text-decoration: none;
+}  /*for ie f6n.net*/
+a:focus {
+	outline: 0;
+} /*for ff f6n.net*/
+a:hover {
+	text-decoration: underline;
+}
+.vam {
+	vertical-align: middle;
+}
+.clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+p {
+	word-spacing: -1.5px;
+}
+.tr {
+	text-align: right;
+}
+.tl {
+	text-align: left;
+}
+.center {
+	text-align: center;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.pa {
+	position: absolute;
+}
+.pr {
+	position: relative
+}
+/* -- 购物车外部框架 -- */
+.cart_header, .cart_content, .cart_footer {
+	width: 980px;
+	margin: 0 auto;
+}
+/* -- 页面整体布局 -- */
+.header, .content, .footer {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: microsoft yahei;
+}
+.left {
+	width: 201px;
+	float: left;
+	overflow: hidden;
+}
+.left2 {
+	width: 700px;
+	float: left;
+	overflow: hidden;
+}
+.left3 {
+	width: 754px;
+	float: left;
+	overflow: hidden;
+	color: #666;
+}
+.lefttop {
+	background: url("Img/left_top_img.gif"/*tpa=http://www.bjsygx.com//Skins/Default/Img/left_top_img.gif*/) no-repeat;
+	height: 3px;
+	font-size: 0;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.left2top {
+	height: 3px;
+	font-size: 0;
+	overflow: hidden;
+}
+.leftbot {
+	background: url("Img/left_bot_img.gif"/*tpa=http://www.bjsygx.com//Skins/Default/Img/left_bot_img.gif*/) no-repeat;
+	height: 3px;
+	font-size: 0;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.left2bot {
+	height: 3px;
+	font-size: 0;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.rightbot {
+	height: 3px;
+	font-size: 0;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.right {
+	width: 784px;
+	float: right;
+	display: inline;
+	overflow: hidden;
+}
+.right2 {
+	width: 275px;
+	float: right;
+	overflow: hidden;
+}
+.right3 {
+	width: 201px;
+	float: right;
+	overflow: hidden;
+	color: #666;
+}
+.right2top {
+	background: url("Img/right2_top_img.gif"/*tpa=http://www.bjsygx.com//Skins/Default/Img/right2_top_img.gif*/) no-repeat;
+	height: 3px;
+	font-size: 0;
+	overflow: hidden;
+}
+.right2bot {
+	background: url("Img/left_bot2_img.gif"/*tpa=http://www.bjsygx.com//Skins/Default/Img/left_bot2_img.gif*/) no-repeat;
+	height: 3px;
+	font-size: 0;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.right_main {
+	width: 782px;
+	min-height: 458px;
+	border: solid 1px #d5d5d5;
+	padding-bottom: 15px;
+	overflow: hidden;
+	background: #fff;
+}
+.right2_main {
+	width: 273px;
+	border: solid 1px #d5d5d5;
+	border-top: 0;
+	border-bottom: 0;
+	padding-bottom: 15px;
+	overflow: hidden;
+	background: #fff
+}
+.left2_main {
+	width: 698px;
+	border: solid 1px #d5d5d5;
+	padding-bottom: 15px;
+	overflow: hidden;
+	background: #fff;
+}
+ .h_nav li a:-webkit-any-link {
+display:block;
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+/*页眉*/
+.header {
+	position: relative;
+	z-index: 998;
+	width: 100%;
+}
+/*--顶部链接导航*/
+.hd_top {
+	border-bottom: 1px solid #ebebeb;
+}
+.hd_top .container {
+	height: 39px;
+	line-height: 39px;
+}
+.hd_top a {
+	padding: 0 10px;
+}
+.hd_top span {
+	color: #8cb9db;
+}
+/*--页眉内容*/
+.hd_cont {
+	position: relative;
+	height: 116px;
+	overflow: hidden;
+}
+.hd_cont .hd_logo {
+	position: absolute;
+	left: 0;
+	top: 28px;
+}
+.hd_cont .hd_logo dd {
+	margin-left: 16px;
+	padding-left: 12px;
+	height: 58px;
+/*	border-left: 1px solid #c2c2c2; */
+}
+.hd_cont .hd_logo dd h2 {
+	padding-top: 6px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	color: #e00c19;
+}
+.hd_cont .hd_logo dd p {
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+}
+.hd_cont .dh_phone {
+	padding: 2px 0px 2px 52px;
+	margin-top: 34px;
+	background: url("Img/Common/hdPhoen_ico.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Common/hdPhoen_ico.png*/) no-repeat left center;
+	font-size: 14px;
+	color: #ffa22b;
+}
+.hd_cont .dh_phone dd {
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+/*--导航栏*/
+.dh_nav {
+	background-color: #d5111e;
+}
+.dh_nav ul {
+	height: 48px;
+}
+.dh_nav li {
+	float: left;
+}
+.dh_nav li a {
+	display: block;
+	padding: 0 35px;
+	height: 48px;
+	line-height: 48px;
+	font-size: 14px;
+	color: #fff;
+	font-family: microsoft yahei;
+	background: url("Img/Common/navLi.png"/*tpa=http://www.bjsygx.com//Skins/Default/Img/Common/navLi.png*/) no-repeat left center;
+	text-decoration: none;
+}
+.dh_nav li a.navHome {
+	padding: 0 14px;
+	background-image: none;
+}
+.dh_nav li a:hover, .dh_nav li a.cur {
+	background-color: #ffe165;
+	color: #333;
+}
+/*页尾*/
+.fotNavBg {
+	height: 48px;
+	line-height: 48px;
+	overflow: hidden;
+	background-color: #d5242e;
+}
+.fotNav {
+	color: #fff;
+	text-align: center;
+}
+.fotNav a {
+	padding: 0 12px;
+	color: #fff;
+	font-size: 14px;
+}
+/*页尾*/
+.footWrap {
+	background-color: #f2f2f2;
+}
+.footer {
+	position: relative;
+	height: 200px;
+	overflow: hidden;
+}
+.fotTxt {
+	margin-top: 44px;
+}
+.fotTxt dt {
+	margin-left: 140px;
+	padding-top: 13px;
+}
+.fotTxt dd {
+	padding-left: 26px;
+	margin-left: 400px;
+	line-height: 24px;
+	color: #333;
+	border-left: 1px solid #d6d6d6;
+}
+.fotTxt dd a {
+	color: #333;
+}
+.fl>a>img{
+/*	max-width: 170px;  */
+}

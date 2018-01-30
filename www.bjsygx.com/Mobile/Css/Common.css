@@ -1,0 +1,341 @@
+﻿/* 织梦58（dede58.com）做最好的织梦整站模板下载网站 */
+@charset "utf-8";
+/* CSS Document */
+html {
+}
+body {
+}
+.mian {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 320px;
+	max-width: 640px;
+	overflow: hidden;
+	background-color: #fff;
+	font-family: Microsoft YaHei;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.header {
+	overflow: hidden;
+}
+.header .logoImg {
+	float: left;
+	margin: 5.5% 0 5.5% 3%;
+	width: 7.167em;
+}
+.header .hdTxt {
+	float: right;
+	margin-top: 5.4%;
+	margin-right: 0%;
+	width: 60%;
+}
+.header .hdTxt p {
+	font-weight: bold;
+	font-size: 1em;
+	color: #ed5915;
+}
+.header .hdTxt h2 {
+	margin-bottom: 0.2em;
+	font-size: 1em;
+	color: #333;
+}
+.nav {
+}
+.nav ul {
+	overflow: hidden;
+	position: relative;
+}
+.nav li {
+	float: left;
+	width: 25%;
+	text-align: center;
+	background: url("../images/Common/navbg.png"/*tpa=http://www.bjsygx.com//Mobile/images/Common/navbg.png*/) repeat-x center;
+}
+.nav li a {
+	padding: 0.8em 0;
+	display: block;
+	font-size: 1em;
+	color: #fff;
+	background: url("../images/Common/lbg.png"/*tpa=http://www.bjsygx.com//Mobile/images/Common/lbg.png*/) repeat-y left center;
+}
+.nav li .noBl {
+	background: none;
+}
+.nav ul:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 9;
+	height: 0;
+	width: 100%;
+	border-top: 1px solid #a0060a;
+}
+.footer {
+}
+.footer ul {
+	overflow: hidden;
+}
+.footer li {
+	width: 25%;
+	float: left;
+	background: url("../images/Common/navbg.png"/*tpa=http://www.bjsygx.com//Mobile/images/Common/navbg.png*/) repeat-x center;
+	text-align: center;
+	padding: 0.8em 0;
+}
+.footer li a {
+	display: block;
+	color: #fff;
+	background: url("../images/Common/tbg.png"/*tpa=http://www.bjsygx.com//Mobile/images/Common/tbg.png*/) no-repeat left center;
+}
+.footer li .noBg {
+	background: none;
+}
+.martop {
+	margin-bottom: 33px;
+}
+.header {
+	overflow: hidden;
+}
+.header .lgImg {
+	float: left;
+	display: block;
+	width: 30%;
+	margin: 1em 0 1.4em 1.0em;
+	margin-top: 1.5em
+}
+.header .htop {
+	float: left;
+	margin: 1.45em 0 1.25em 0.6em;
+}
+.header .htop p {
+	font-size: 1em;
+	color: #d5111e;
+	font-weight: bold;
+}
+.header .htop h4 {
+	font-size: 1em;
+	color: #666;
+}
+.header .htop h4 span {
+	font-size: 1.2em;
+	color: #ff9711;
+	font-weight: normal;
+	background: url("../images/Common/tphone.png"/*tpa=http://www.bjsygx.com//Mobile/images/Common/tphone.png*/) no-repeat left center;
+	background-size: 1.417em auto;
+	padding-left: 1.5em;
+	position: relative;
+	top: 0.1em;
+}
+.ftph {
+	background: #d5111e;
+	overflow: hidden;
+	border-bottom: 1px solid #a0060a;
+}
+.ftph dl {
+	background: url("../images/Index/phbg.png"/*tpa=http://www.bjsygx.com//Mobile/images/Index/phbg.png*/) no-repeat left center;
+	color: #fff;
+	padding-left: 3.3em;
+	margin: 1.4em 0 1.4em 6em;
+	background-size: 2.833em;
+}
+.ftph dt {
+	font-size: 1em;
+}
+.ftph dd {
+	font-size: 1.8em;
+}
+/*ftph*/
+
+.rtop {
+	background: #d5111e url("../images/Index/rtbg.png"/*tpa=http://www.bjsygx.com//Mobile/images/Index/rtbg.png*/) no-repeat 37% center;
+	margin-bottom: 33px;
+	padding: 1.5em 0;
+	display: block;
+	font-size: 1.083em;
+	color: #fff;
+	text-align: center;
+	background-size: 0.750em;
+}
+/*公共颜色调用*/
+.pagedSpan a {
+	background: #333;
+}
+.CategoryList_Title i {
+	color: #333;
+}
+.hdPhone p i {
+	border: 1px solid #fff;
+}
+.pagedSpan a {
+	color: #fff;
+}
+.pagedSpan {
+	background: #feeddc;
+}
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+	width: 100%;
+}
+.toTop {
+	position: absolute;
+	top: -3em;
+	left: 50%;
+	z-index: 999;
+	margin-left: -2.2em;
+	width: 4.583em;
+	height: 4.583em;
+	line-height: 4.583em;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	border-radius: 50%;
+}
+/*.fotNav{overflow:hidden;}
+.fotNav li{float:left; width:25%; text-align:center;}
+.fotNav li a{display:block; padding:1em 0px;  font-size:1em; color:#fff; margin-top:1px; position:relative; background-color:#ee5915;}
+.fotNav li a:after{content:''; position:absolute; top:0; right:-1px; z-index:9; height:100%; width:0px;  border-left:1px solid #fa6724;}*/
+
+
+/*分类标题*/
+.CategoryList_Title {
+	height: 2.968em;
+	line-height: 2.968em;
+	padding: 0 .687em;
+	color: #333;
+	text-align: center;
+	border-bottom: 1px solid #b0b4bb;
+	font-size: 1.125em;
+	background: linear-gradient(180deg, #f2f2f2 0%, #e0e0e0 100%);
+}
+.CategoryList_Title i {
+	font-size: 1.2em;
+	margin-top: .75em;
+}
+.CategoryList_Title .icon-details {
+	margin-right: .5em;
+}
+/*分类列表*/
+.CategoryLista {
+}
+.CategoryLista > li > a {
+	height: 3.031em;
+	line-height: 3.031em;
+	display: block;
+	color: #333;
+	background: #f4f4f4;
+	padding: 0 1.125em;
+	border-bottom: 1px solid #cfcbc1;
+	border-top: 1px solid #fff;
+	font-size: 1.125em;
+}
+.CategoryLista li i {
+	float: right;
+	margin-top: .45em;
+	color: #656565;
+	font-weight: bold;
+	font-size: 1.6em;
+}
+.CategoryLista > li li a {
+	height: 3.031em;
+	line-height: 3.031em;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: block;
+	color: #666;
+	background: #fff;
+	padding: 0 2.062em;
+	border-bottom: 1px solid #cfcbc1;
+	border-top: 1px solid #fff;
+	font-size: 1em;
+}
+.CategoryLista li:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.CategoryLista .icon-arrow-down {
+	color: #f90;
+}
+.CategoryLista > li > ul >li >ul {
+	padding: 0 1.125em;
+}
+.CategoryLista > li > .list1, .CategoryLista > li > .list1 li ul {
+	display: none;
+}
+/*搜索*/
+.searchSpan {
+	position: relative;
+	overflow: hidden;
+	margin: .687em;
+}
+.searchSpan .txtSearch {
+	height: 33px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	font-size: .75em;
+	text-indent: .25em;
+	width: 99.9%;
+	outline: none;
+}
+.searchSpan .btnSearch {
+	position: absolute;
+	right: 0px;
+	top: 1px;
+	border-radius: 0 5px 5px 0;
+	display: block;
+	height: 33px;
+	line-height: 33px;
+	color: #333;
+	width: 2.5em;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	text-align: center;
+	background: linear-gradient(180deg, #fff 0%, #ededed 100%);
+}
+.green {
+	coor: Green
+}
+.red {
+	color: Red
+}
+ @media screen and (min-width:320px) {
+body {
+	font-size: 75%;
+}
+}
+@media screen and (min-width:375px) {
+body {
+	font-size: 87.5%;
+}
+}
+@media screen and (min-width:480px) {
+body {
+	font-size: 87.5%;
+}
+}
+@media screen and (min-width:540px) {
+body {
+	font-size: 112.5%;
+}
+}
+@media screen and (min-width:550px) {
+body {
+	font-size: 125%;
+}
+}
+@media screen and (min-width:640px) {
+body {
+	font-size: 150%;
+}
+}
